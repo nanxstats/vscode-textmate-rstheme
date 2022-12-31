@@ -30,7 +30,16 @@ A light theme for Visual Studio Code inspired by the TextMate (default) theme in
 
 ![screenshot-web](assets/screenshot-web.png)
 
-## Installation
+## Contributing
+
+- Feel free to [report an issue](https://github.com/nanxstats/vscode-textmate-rstheme/issues)
+or [start a discussion](https://github.com/nanxstats/vscode-textmate-rstheme/discussions).
+A minimal reproducible example would be helpful.
+- Pull requests welcomed 👉 [contributing guide](https://github.com/nanxstats/vscode-textmate-rstheme/blob/main/contributing.md)
+
+## Credits
+
+- Code highlighting colors from RStudio IDE: [textmate.rstheme](https://github.com/rstudio/rstudio/blob/785be459684006f95e947fe4e6f13f6a91db6762/src/cpp/session/resources/themes/textmate.rstheme)
 
 ## License
 
