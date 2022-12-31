@@ -43,6 +43,6 @@ A minimal reproducible example would be helpful.
 
 ## License
 
-This theme is released under the [MIT License](LICENSE.md).
+This theme is released under the [MIT License](LICENSE).
 
 ✨ Made by [Nan Xiao](https://nanx.me/). Find me on [LinkedIn](https://www.linkedin.com/in/nanxstats) or [Twitter](https://twitter.com/nanxstats) ✨
