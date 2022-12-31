@@ -268,15 +268,6 @@
 				"storage",
 			],
 			"settings": {
-				"foreground": "#687687"
-			}
-		},
-		{
-			"name": "Keywords like function, if, else, stop",
-			"scope": [
-				"keyword.control"
-			],
-			"settings": {
 				"foreground": "#0000ff"
 			}
 		},
@@ -719,6 +710,14 @@
 				"foreground": "#434343"
 			}
 		},
+		// R
+		{
+			"name": "R: `$` and separator keywords",
+			"scope": "keyword.other.r",
+			"settings": {
+				"foreground": "#687687"
+			}
+		},
 		// R Markdown and Markdown
 		{
 			"name": "YAML header entity name",
@@ -855,14 +854,6 @@
 			],
 			"settings": {
 				"foreground": "#687687"
-			}
-		},
-		// Rust
-		{
-			"name": "Rust: fn",
-			"scope": "keyword.other.fn.rust",
-			"settings": {
-				"foreground": "#0000ff"
 			}
 		}
 	]
