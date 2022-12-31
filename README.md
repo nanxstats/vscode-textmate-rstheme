@@ -40,6 +40,7 @@ A minimal reproducible example would be helpful.
 ## Credits
 
 - Code highlighting colors from RStudio IDE: [textmate.rstheme](https://github.com/rstudio/rstudio/blob/785be459684006f95e947fe4e6f13f6a91db6762/src/cpp/session/resources/themes/textmate.rstheme)
+- Outer UI colors are derived from the `GitHub Light Default` theme in [github-vscode-theme](https://github.com/primer/github-vscode-theme)
 
 ## License
 
