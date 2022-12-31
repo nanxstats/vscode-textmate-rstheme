@@ -747,6 +747,7 @@
 			"name": "Block quote",
 			"scope": [
 				"markup.quote.markdown",
+				"punctuation.definition.quote.begin.markdown",
 				"punctuation.definition.quote.begin.quarto"
 			],
 			"settings": {
