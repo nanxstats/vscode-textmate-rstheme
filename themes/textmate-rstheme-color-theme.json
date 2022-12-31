@@ -100,7 +100,6 @@
 		"list.focusBackground": "#ddf4ff",
 		"list.inactiveFocusBackground": "#ddf4ff",
 		"list.highlightForeground": "#0969da",
-		"list.activeSelectionIconForeground": "#ffffff",
 		// Outer UI - status bar
 		"statusBar.foreground": "#57606a",
 		"statusBar.background": "#ffffff",
