@@ -1,0 +1,423 @@
+/* Global styles */
+
+@font-face {
+    font-family: "Fira GO";
+    src: url("fonts/FiraGO-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Fira GO";
+    src: url("fonts/FiraGO-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Fira GO";
+    src: url("fonts/FiraGO-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "IBM Plex Mono";
+    src: url("fonts/IBMPlexMono-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+body {
+    font-family: "Fira GO", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: #fff;
+    font-variant-ligatures: contextual common-ligatures;
+    font-feature-settings: "ss05";
+}
+
+/* Fix jumping scrollbar when switching to long pages */
+
+html {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+}
+
+/* link */
+
+a {
+    color: #212529;
+    text-decoration: underline;
+    text-decoration-color: #adb5bd;
+    text-underline-offset: 0.25rem;
+    background-color: transparent;
+    transition: all .2s ease-in-out;
+}
+
+a:active,
+a:hover {
+    outline-width: 0;
+}
+
+a:hover,
+a:focus {
+    color: #212529;
+    text-decoration: underline;
+    text-decoration-color: #6c757d;
+}
+
+/* button */
+
+.btn-outline-primary {
+    color: #212529;
+    border-color: #212529;
+}
+
+.btn-outline-primary:hover {
+    color: #FFFFFF;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+/* author */
+
+author {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* landing content */
+
+.landing {
+    font-size: 1.125rem;
+    line-height: 1.75;
+}
+
+.landing>p:last-child {
+    margin-bottom: 0;
+}
+
+/* horizontal rule */
+
+hr {
+    border-top: 1px solid #212529;
+    opacity: 1;
+}
+
+.footer hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* selection color */
+
+/* ::-moz-selection {
+    background-color: #6c757d;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background-color: #6c757d;
+    color: #fff;
+    text-shadow: none;
+} */
+
+/* Partial: Header */
+
+.header a,
+.header a:hover {
+    text-decoration: none;
+}
+
+.header .logo {
+    max-height: 100px;
+}
+
+.header h1.name {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #212529;
+    margin-left: 7px;
+}
+
+.header ul.nav li {
+    font-size: 1.25rem;
+}
+
+.header ul.nav li a {
+    flex: 0 1 auto;
+    margin-right: 0.5rem;
+}
+
+.header ul.nav li a {
+    color: #212529;
+    padding: 3px 8px 3px 8px;
+}
+
+.header ul.nav li a:hover {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.header ul.nav li a:focus,
+.header ul.nav li a:active {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+/* Partial: Content */
+
+.content h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 1rem;
+}
+
+.content h1 {
+    font-size: 2rem;
+}
+
+.content h2 {
+    font-size: 1.6rem;
+}
+
+.content h3 {
+    font-size: 1.2rem;
+}
+
+.content h4 {
+    font-size: 1rem;
+}
+
+.content .meta {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.content .meta a {
+    text-decoration: none;
+}
+
+.content .middot:before {
+    margin: 0 3px;
+    content: "·";
+}
+
+.content .caption {
+    font-size: 0.9rem;
+    color: #6c757d;
+    text-align: center;
+    margin-top: 0.625rem;
+}
+
+.content .markdown {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    font-weight: 400;
+    color: #212529;
+}
+
+.content .markdown li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content twitterwidget {
+    margin: auto;
+}
+
+/* blog post typography */
+
+.content .blog-post-title {
+    font-size: 2rem;
+    line-height: 1.25;
+}
+
+.content .blog-post-content {
+    font-size: 1.125rem;
+    line-height: 1.75;
+}
+
+/* centered, boxed blog post images */
+
+.content .figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.content .markdown code,
+.content .markdown pre {
+    font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    background-color: #fff;
+}
+
+.content .markdown code {
+    /* enclosed by single backtick (`) */
+    color: #212529;
+    padding: .2em .4em;
+    margin: 0;
+    font-size: 1rem;
+    background-color: rgba(27, 31, 35, .05);
+    border-radius: 6px;
+}
+
+.content .markdown pre {
+    /* Hugo specific: consider using the 'highlight' shortcode */
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    line-height: 20px;
+    white-space: pre;
+    word-break: break-all;
+    word-wrap: break-word;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.content .markdown pre code,
+.content .markdown pre output {
+    /* enclosed by 4 backticks (````) */
+    padding: 0;
+    font-size: 0.75rem;
+    line-height: 20px;
+    background-color: #fff;
+    border-radius: 0;
+}
+
+.content .markdown blockquote {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #7a7a7a;
+    border-left: 0.25rem solid #e5e5e5;
+}
+
+.content .markdown blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+.content .markdown figure {
+    background: #fff;
+}
+
+.content .groupby {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: #212529;
+    list-style: none;
+}
+
+.content .post-item {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.content .post-item .meta-date {
+    font-variant-numeric: tabular-nums;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: #6c757d;
+    display: block;
+    width: 12ch;
+}
+
+.content .post-item .meta-title {
+    font-variant-numeric: tabular-nums;
+    font-size: 1.125rem;
+    line-height: 1.75;
+}
+
+.content .navigation .icon {
+    width: 16px;
+    height: 16px;
+}
+
+/* Partial: Utterances Comments */
+
+.comments {
+    max-width: 100%;
+}
+
+/* Partial: Footer */
+
+.footer {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.footer a {
+    color: #212529;
+    text-decoration: none;
+}
+
+.footer a:hover,
+a:focus {
+    color: #6c757d;
+}
+
+.footer a {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.footer a:first-child {
+    margin-left: 0;
+}
+
+.footer a:last-child {
+    margin-right: 0;
+}
+
+.site-copyright {
+    min-width: 16em;
+}
+
+.site-social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.site-social li {
+    display: inline-block;
+}
+
+.site-social li:not(:last-child)::after {
+    content: '';
+    color: #212529;
+    margin: 0 0.3rem 0 0.5rem;
+}
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+    fill: #6c757d;
+}
+
+/* < medium screens */
+
+@media (max-width: 767.98px) {
+    html {
+        font-size: 0.9rem;
+    }
+}
