@@ -630,7 +630,7 @@
 			"name": "Markup: Heading",
 			"scope": "markup.heading",
 			"settings": {
-				"foreground": "#AA3731"
+				"foreground": "#0c07ff"
 			}
 		},
 		{
@@ -718,7 +718,7 @@
 				"foreground": "#687687"
 			}
 		},
-		// R Markdown and Markdown
+		// R Markdown, Markdown, Quarto
 		{
 			"name": "YAML header entity name",
 			"scope": "entity.name.tag.yaml",
@@ -734,15 +734,21 @@
 			}
 		},
 		{
-			"name": "Code chunk options",
-			"scope": "meta.embedded.block.r",
+			"name": "Code chunk fences",
+			"scope": [
+				"meta.embedded.block",
+				"markup.fenced_code.block.markdown",
+			],
 			"settings": {
 				"foreground": "#3c4c72"
 			}
 		},
 		{
 			"name": "Block quote",
-			"scope": "markup.quote.markdown",
+			"scope": [
+				"markup.quote.markdown",
+				"punctuation.definition.quote.begin.quarto"
+			],
 			"settings": {
 				"foreground": "#036a07"
 			}
@@ -750,8 +756,9 @@
 		{
 			"name": "Headings",
 			"scope": [
+				"markup.heading.markdown",
 				"punctuation.definition.heading.markdown",
-				"markup.heading.markdown"
+				"punctuation.definition.heading.quarto"
 			],
 			"settings": {
 				"foreground": "#0c07ff"
@@ -759,28 +766,40 @@
 		},
 		{
 			"name": "Bracket links URL",
-			"scope": "markup.underline.link.markdown",
+			"scope": [
+				"markup.underline.link.markdown",
+				"markup.underline.link.quarto"
+			],
 			"settings": {
 				"foreground": "#0c07ff"
 			}
 		},
 		{
 			"name": "Bracket links brackets",
-			"scope": "punctuation.definition.link.markdown",
+			"scope": [
+				"punctuation.definition.link.markdown",
+				"punctuation.definition.link.quarto"
+			],
 			"settings": {
 				"foreground": "#000"
 			}
 		},
 		{
 			"name": "Link title",
-			"scope": "string.other.link.title.markdown",
+			"scope": [
+				"string.other.link.title.markdown",
+				"string.other.link.title.quarto"
+			],
 			"settings": {
 				"foreground": "#0c07ff"
 			}
 		},
 		{
 			"name": "Link URL",
-			"scope": "markup.underline.link.markdown",
+			"scope": [
+				"markup.underline.link.markdown",
+				"markup.underline.link.quarto"
+			],
 			"settings": {
 				"foreground": "#000"
 			}
@@ -789,7 +808,8 @@
 			"name": "Bold",
 			"scope": [
 				"markup.bold.markdown",
-				"punctuation.definition.bold.markdown"
+				"punctuation.definition.bold.markdown",
+				"punctuation.definition.bold.quarto"
 			],
 			"settings": {
 				"foreground": "#0000cd"
@@ -799,7 +819,9 @@
 			"name": "Italic",
 			"scope": [
 				"markup.italic.markdown",
-				"punctuation.definition.italic.markdown"
+				"punctuation.definition.italic.markdown",
+				"markup.italic.quarto",
+				"punctuation.definition.italic.quarto"
 			],
 			"settings": {
 				"foreground": "#585cf6"
@@ -809,7 +831,8 @@
 			"name": "Lists",
 			"scope": [
 				"markup.list",
-				"punctuation.definition.list.begin.markdown"
+				"punctuation.definition.list.begin.markdown",
+				"punctuation.definition.list.begin.quarto"
 			],
 			"settings": {
 				"foreground": "#000"
@@ -817,34 +840,36 @@
 		},
 		{
 			"name": "Inline code",
-			"scope": "markup.inline.raw.string.markdown",
+			"scope": [
+				"markup.inline.raw.string.markdown",
+				"markup.inline.raw.string.quarto"
+			],
 			"settings": {
 				"foreground": "#3c4c72"
 			}
 		},
 		{
 			"name": "Raw code block",
-			"scope": "markup.raw.block.markdown",
+			"scope": [
+				"markup.raw.block.markdown",
+				"markup.raw.block.quarto"
+			],
 			"settings": {
 				"foreground": "#3c4c72"
 			}
 		},
 		{
 			"name": "Image description",
-			"scope": "string.other.link.description.markdown",
+			"scope": [
+				"string.other.link.description.markdown",
+				"string.other.link.description.quarto"
+			],
 			"settings": {
 				"foreground": "#0c07ff"
 			}
 		},
 		{
-			"name": "Image `!`",
-			"scope": "punctuation.definition.link.description.begin.markdown",
-			"settings": {
-				"foreground": "#000"
-			}
-		},
-		{
-			"name": "Brackets and parenthesis in pure Markdown",
+			"name": "Link brackets and parenthesis",
 			"scope": [
 				"punctuation.definition.link.title.begin.markdown",
 				"punctuation.definition.link.title.end.markdown",
