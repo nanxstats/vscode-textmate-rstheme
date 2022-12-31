@@ -13,17 +13,17 @@ knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
 
 [ggsci](https://nanx.me/ggsci/) offers a collection of high-quality color palettes.
 
-> Block quote
-
-![Image title](images/cover.png)
-
 **This is bold text**. *This is italic text*. `This is inline code`.
+
+> This is block quote.
 
 ```{r}
 #| pressure,
 #| echo = FALSE
 plot(pressure)
 ```
+
+![Image title](images/cover.png)
 
 ### Lists
 

@@ -12,10 +12,7 @@ is_text_file <- function(path, n = file.info(path)$size) {
   allow <- as.raw(c(9, 10, 13, 32:255))
   block <- as.raw(c(0:6, 14:31))
 
-  cond1 <- any(bytecode %in% allow)
-  cond2 <- !any(bytecode %in% block)
-
-  cond1 && cond2
+  (any(bytecode %in% allow)) && (!any(bytecode %in% block))
 }
 
 for (i in unique(exts)) {
