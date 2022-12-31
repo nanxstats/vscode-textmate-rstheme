@@ -14,21 +14,26 @@ A light theme for Visual Studio Code inspired by the TextMate (default) theme in
 
 ![screenshot-r](assets/screenshot-r.png)
 
-### R Markdown/Markdown
+### R Markdown/Quarto
 
 ![screenshot-rmd](assets/screenshot-rmd.png)
 
-### Python
+## Languages tested
 
-![screenshot-python](assets/screenshot-python.png)
-
-### C/C++
-
-![screenshot-cpp](assets/screenshot-cpp.png)
-
-### HTML/CSS/JS
-
-![screenshot-web](assets/screenshot-web.png)
+- Bash
+- C/C++
+- CSS
+- HTML
+- JavaScript
+- LaTeX
+- Markdown
+- Python
+- Quarto
+- R
+- R Markdown
+- Rust
+- SQL
+- Stan
 
 ## Contributing
 
