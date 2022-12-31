@@ -1,2 +1,5 @@
-# Set default behavior to automatically normalize line endings.
+# Set default behavior to automatically normalize line endings
 * text=auto
+
+# Let GitHub Linguist ignore directories
+tests/* linguist-vendored=false
