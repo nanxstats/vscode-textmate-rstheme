@@ -380,6 +380,16 @@
 			}
 		},
 		{
+			"name": "Strings: quotes",
+			"scope": [
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end"
+			],
+			"settings": {
+				"foreground": "#036a07"
+			}
+		},
+		{
 			"name": "Strings: Symbols",
 			"scope": "constant.other.symbol",
 			"settings": {
