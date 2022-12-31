@@ -17,7 +17,7 @@
 		"editorLineNumber.foreground": "#8c959f",
 		"editorLineNumber.activeForeground": "#24292f",
 		// Outer UI - UI components
-		"focusBorder": "#0969da",
+		"focusBorder": "#8AA9DB",
 		"foreground": "#000",
 		"descriptionForeground": "#57606a",
 		"errorForeground": "#cf222e",
