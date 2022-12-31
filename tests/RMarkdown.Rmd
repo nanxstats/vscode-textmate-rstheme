@@ -5,7 +5,7 @@ output:
     highlight: "textmate"
 ---
 
-# Introduction
+## Introduction
 
 ![Image title](images/cover.png)
 
@@ -14,7 +14,7 @@ color palettes inspired by colors used in scientific journals,
 data visualization libraries, science fiction movies, and TV shows.
 The color palettes in `ggsci` are available as `ggplot2` scales.
 
-# R code chunks
+## R code chunks
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
@@ -35,13 +35,16 @@ p <- ggplot(
   theme_bw()
 ```
 
-```{r, dpi = 300, fig.width = 7, out.width = "100%"}
+```{r}
+#| dpi: 300
+#| fig.width: 7
+#| out.width: "100%"
 p + scale_fill_rickandmorty()
 ```
 
-# Markdown
+## Markdown
 
-## Emphasis
+### Emphasis
 
 **This is bold text**
 
@@ -51,7 +54,7 @@ __This is bold text__
 
 _This is italic text_
 
-## Lists
+### Lists
 
 - fruits
   - apples
@@ -68,7 +71,7 @@ _This is italic text_
 - [ ] an unchecked task list item
 - [x] checked item
 
-## Code
+### Code
 
 Inline `code`
 
