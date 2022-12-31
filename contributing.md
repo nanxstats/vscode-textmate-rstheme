@@ -2,8 +2,8 @@
 
 :+1::tada: First off, thanks for taking your time to contribute! :tada::+1:
 
-The VS Code [color themes](https://code.visualstudio.com/docs/getstarted/themes)
-guide is a good place to start developing color theme extensions.
+The VS Code [color themes guide](https://code.visualstudio.com/docs/getstarted/themes)
+is a good starting point to learn developing color theme extensions.
 
 ## Key files
 
@@ -29,7 +29,7 @@ guide is a good place to start developing color theme extensions.
 
 ## Install the extension locally
 
-- Install [vsce](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) from npm.
+- [Install vsce](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) from npm.
 - Run `vsce package` in the folder. This will create a `.vsix` file in the folder.
 - Run the command `Extensions: Install from VSIX...` from the Command Palette and select the `.vsix` file.
 - Select the color theme from Color Themes.

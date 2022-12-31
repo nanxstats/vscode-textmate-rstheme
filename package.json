@@ -25,11 +25,7 @@
     "vscode": "^1.74.0"
   },
   "categories": [
-    "Themes",
-    "Data Science",
-    "Machine Learning",
-    "Notebooks",
-    "Visualization"
+    "Themes"
   ],
   "keywords": [
     "theme",
