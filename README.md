@@ -39,6 +39,7 @@ All screenshots are captured using IBM Plex Mono at 18px.
 - Rust
 - SQL
 - Stan
+- Swift
 - TypeScript
 - YAML
 
