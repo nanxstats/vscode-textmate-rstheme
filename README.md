@@ -27,6 +27,7 @@ All screenshots are captured using IBM Plex Mono at 18px.
 - CSS
 - HTML
 - JavaScript
+- JSON
 - LaTeX
 - Markdown
 - Python
