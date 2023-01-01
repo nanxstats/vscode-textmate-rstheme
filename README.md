@@ -30,6 +30,7 @@ All screenshots are captured using IBM Plex Mono at 18px.
 - HTML
 - JavaScript
 - JSON
+- Julia
 - LaTeX
 - Markdown
 - Python
