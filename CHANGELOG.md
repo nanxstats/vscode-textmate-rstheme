@@ -1,6 +1,6 @@
 # Changelog
 
-## 2023.01.0
+## 2023.1.0
 
 ### Improvements
 
