@@ -20,11 +20,12 @@ A light theme for Visual Studio Code inspired by the TextMate (default) theme in
 
 All screenshots are captured using IBM Plex Mono at 18px.
 
-## Programming languages tested
+## Programming languages and file formats tested
 
 - Bash
 - C/C++
 - CSS
+- Debian Control File
 - Go
 - HTML
 - JavaScript
