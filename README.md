@@ -25,6 +25,7 @@ All screenshots are captured using IBM Plex Mono at 18px.
 - Bash
 - C/C++
 - CSS
+- Go
 - HTML
 - JavaScript
 - JSON
