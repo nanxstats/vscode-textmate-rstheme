@@ -55,7 +55,7 @@ A minimal reproducible example would be helpful.
 ## Credits
 
 - Code highlighting colors from [RStudio IDE](https://github.com/rstudio/rstudio/blob/785be459684006f95e947fe4e6f13f6a91db6762/src/cpp/session/resources/themes/textmate.rstheme), originally from the [textmate theme in Ace](https://github.com/ajaxorg/ace/blob/f1f6517a30d6819d1c8ca045744cdeb2925ccf0a/src/theme/textmate.css.js).
-- Outer UI colors are derived from the `GitHub Light Default` theme in [github-vscode-theme](https://github.com/primer/github-vscode-theme) and [shinyapps.io](https://www.shinyapps.io/).
+- Outer UI colors are derived from the 'GitHub Light Default' theme in [github-vscode-theme](https://github.com/primer/github-vscode-theme) and [shinyapps.io](https://www.shinyapps.io/).
 
 ## License
 
