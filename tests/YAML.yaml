@@ -1,0 +1,41 @@
+---
+# Comment
+
+string_1: "Bar"
+string_2: 'bar'
+string_3: bar
+
+inline_keys_ignored: path/file.png
+
+keywords_in_yaml:
+  - true
+  - false
+  - TRUE
+  - FALSE
+  - 21
+  - 21.0
+  - !!str 123
+
+"quoted_key": &foobar
+  bar: foo
+  foo:
+  "foo": bar
+
+reference: *foobar
+
+multiline_1: |
+  Multiline
+  string
+multiline_2: >
+  Multiline
+  string
+multiline_3: "
+  Multiline string
+  "
+
+array_nested:
+- a
+- b: 1
+  c: 2
+- b
+- comment
