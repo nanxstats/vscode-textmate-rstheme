@@ -1,55 +1,14 @@
----
-title: "Here is a title"
-output:
-  rmarkdown::html_document:
-    highlight: "textmate"
----
+# Here is a title
 
-## Introduction
+## Headings
+
+[ggsci](https://nanx.me/ggsci/) offers a collection of high-quality color palettes.
+
+**This is bold text**. *This is italic text*. `This is inline code`.
+
+> This is block quote.
 
 ![Image title](images/cover.png)
-
-[ggsci](https://nanx.me/ggsci/) offers a collection of high-quality
-color palettes inspired by colors used in scientific journals,
-data visualization libraries, science fiction movies, and TV shows.
-The color palettes in `ggsci` are available as `ggplot2` scales.
-
-## R code chunks
-
-```{r setup, include = FALSE}
-knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
-```
-
-```r
-library("ggsci")
-library("ggplot2")
-library("gridExtra")
-
-data("diamonds")
-
-p <- ggplot(
-  subset(diamonds, carat > 2.2 & depth > 55 & depth < 70),
-  aes(x = depth, fill = cut)
-) +
-  geom_histogram(colour = "black", binwidth = 1, position = "dodge") +
-  theme_bw()
-```
-
-```{r, dpi = 300, fig.width = 7, out.width = "100%"}
-p + scale_fill_rickandmorty()
-```
-
-## Markdown
-
-### Emphasis
-
-**This is bold text**
-
-__This is bold text__
-
-*This is italic text*
-
-_This is italic text_
 
 ### Lists
 
@@ -68,20 +27,18 @@ _This is italic text_
 - [ ] an unchecked task list item
 - [x] checked item
 
-### Code
-
-Inline `code`
+### Code blocks
 
 Fenced code block
 
 ```yaml
 output:
   rmarkdown::html_vignette:
-    css: mystyles.css
+    css: custom.css
 ```
 
 Indented code block
 
     output:
       rmarkdown::html_vignette:
-        css: mystyles.css
+        css: custom.css
