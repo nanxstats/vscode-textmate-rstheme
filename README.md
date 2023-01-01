@@ -26,6 +26,7 @@ All screenshots are captured using IBM Plex Mono at 18px.
 - C/C++
 - CSS
 - Debian Control File
+- Dockerfile
 - Go
 - HTML
 - JavaScript
