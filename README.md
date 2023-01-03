@@ -20,6 +20,12 @@ A light theme for Visual Studio Code inspired by the TextMate (default) theme in
 
 All screenshots are captured using IBM Plex Mono at 18px.
 
+## Installation
+
+Search extensions for `textmate.rstheme` within VS Code to install this theme.
+
+You can also install it from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=nanxstats.textmate-rstheme) page.
+
 ## Programming languages and file formats tested
 
 - Bash
