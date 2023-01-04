@@ -45,6 +45,7 @@ You can also install it from the [Visual Studio Marketplace](https://marketplace
 - R
 - R Markdown
 - Rust
+- SAS
 - SQL
 - Stan
 - Swift
