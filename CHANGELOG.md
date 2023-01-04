@@ -1,5 +1,11 @@
 # Changelog
 
+## 2023.1.2
+
+### New features
+
+- Add syntax highlighting supporting for SAS with test fixture.
+
 ## 2023.1.1
 
 ### Improvements
