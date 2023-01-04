@@ -41,6 +41,7 @@ You can also install it from the [Visual Studio Marketplace](https://marketplace
 - LaTeX
 - Markdown
 - OCaml
+- Perl
 - Python
 - Quarto
 - R
