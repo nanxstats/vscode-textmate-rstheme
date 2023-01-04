@@ -510,13 +510,6 @@
 		},
 		// JavaScript
 		{
-			"name": "JavaScript: function arguments",
-			"scope": "variable.parameter.js",
-			"settings": {
-				"foreground": "#318495"
-			}
-		},
-		{
 			"name": "JavaScript: regex",
 			"scope": "keyword.control.anchor.regexp",
 			"settings": {
@@ -882,5 +875,6 @@
 				"foreground": "#687687"
 			}
 		}
-	]
+	],
+	"semanticHighlighting": true
 }
