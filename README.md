@@ -57,6 +57,7 @@ You can also install it from the [Visual Studio Marketplace](https://marketplace
 - SQL
 - Stan
 - Stata
+- Sweave
 - Swift
 - TypeScript
 - YAML
