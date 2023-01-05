@@ -452,6 +452,35 @@
 				"foreground": "#585cf6"
 			}
 		},
+		// Makefile
+		{
+			"name": "Makefile: target.PHONY",
+			"scope": [
+				"support.function.target.PHONY.makefile"
+			],
+			"settings": {
+				"foreground": "#585cf6"
+			}
+		},
+		{
+			"name": "Makefile: target names",
+			"scope": [
+				"meta.scope.target.makefile",
+				"entity.name.function.target.makefile"
+			],
+			"settings": {
+				"foreground": "#0000ff"
+			}
+		},
+		{
+			"name": "Makefile: variables",
+			"scope": [
+				"variable.other.makefile"
+			],
+			"settings": {
+				"foreground": "#318495"
+			}
+		},
 		// Python
 		{
 			"name": "Python: separator",
