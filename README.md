@@ -39,6 +39,7 @@ You can also install it from the [Visual Studio Marketplace](https://marketplace
 - JSON
 - Julia
 - LaTeX
+- Lua
 - Makefile
 - Markdown
 - OCaml
