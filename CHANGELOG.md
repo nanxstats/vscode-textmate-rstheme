@@ -1,5 +1,11 @@
 # Changelog
 
+## 2023.1.5
+
+### New features
+
+- Add syntax highlighting support and test fixture for Sweave.
+
 ## 2023.1.4
 
 ### Improvements
@@ -17,7 +23,7 @@
 
 ### New features
 
-- Add syntax highlighting supporting for SAS with test fixture.
+- Add syntax highlighting support and test fixture for SAS.
 
 ## 2023.1.1
 
