@@ -1,5 +1,11 @@
 # Changelog
 
+## 2023.1.4
+
+### Improvements
+
+- Add test fixture for Jupyter Notebook.
+
 ## 2023.1.3
 
 ### Improvements
