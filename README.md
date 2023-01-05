@@ -52,6 +52,7 @@ You can also install it from the [Visual Studio Marketplace](https://marketplace
 - Rust
 - SAS
 - Sass/SCSS
+- Scala
 - SQL
 - Stan
 - Stata
