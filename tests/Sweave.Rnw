@@ -1,0 +1,56 @@
+% Here is a comment
+
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+
+\usepackage{geometry}
+\geometry{verbose, tmargin=2.5cm, bmargin=2.5cm, lmargin=2.5cm, rmargin=2.5cm}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+
+\usepackage{url}
+\usepackage[colorlinks=false]{hyperref}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\title{Here is a title}
+
+\author{Author Name}
+
+\maketitle
+
+<<setup, include=FALSE>>=
+# Set global chunk options
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+@
+
+\section{Headings}
+
+\href{https://nanx.me/ggsci/}{ggsci} offers a collection of high-quality color palettes.
+
+<<pressure, echo=FALSE>>=
+plot(pressure)
+@
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.6\textwidth]{images/cover.pdf}\label{Image title}
+\end{figure}
+
+\textbf{This is bold text}.
+\textit{This is italic text}.
+\texttt{This is inline code}.
+
+\subsection{Code blocks}
+
+\verb|inline code|.
+
+\begin{verbatim}
+output:
+  rmarkdown::html_vignette:
+    css: mystyles.css
+\end{verbatim}
+
+\end{document}

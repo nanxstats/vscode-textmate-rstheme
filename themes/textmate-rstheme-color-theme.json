@@ -452,6 +452,23 @@
 				"foreground": "#585cf6"
 			}
 		},
+		// LaTeX and Sweave
+		{
+			"name": "LaTeX and Sweave: keywords",
+			"scope": [
+				"support.function.general.tex",
+				"support.function.section.latex",
+				"support.function.be.latex",
+				"support.function.verb.latex",
+				"support.function.textbf.latex",
+				"support.function.textit.latex",
+				"support.function.texttt.latex",
+				"support.function.url.latex"
+			],
+			"settings": {
+				"foreground": "#0000ff"
+			}
+		},
 		// Makefile
 		{
 			"name": "Makefile: target.PHONY",
@@ -638,7 +655,7 @@
 				"markup.raw"
 			],
 			"settings": {
-				"foreground": "#777777"
+				"foreground": "#3c4c72"
 			}
 		},
 		{
