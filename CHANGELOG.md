@@ -5,6 +5,7 @@
 ### Improvements
 
 - Add support and test fixtures for 8 more programming languages and file formats.
+  Most of the test fixtures are from highlight.js demos.
 
 ## 2023.1.2
 
