@@ -1,5 +1,11 @@
 # Changelog
 
+## 2023.1.3
+
+### Improvements
+
+- Add support and test fixtures for 8 more programming languages and file formats.
+
 ## 2023.1.2
 
 ### New features
