@@ -29,6 +29,7 @@ You can also install it from the [Visual Studio Marketplace](https://marketplace
 ## Programming languages and file formats tested
 
 - Bash
+- BibTeX
 - C/C++
 - CSS
 - Debian Control File
