@@ -1,5 +1,11 @@
 # Changelog
 
+## 2023.4.0
+
+### Improvements
+
+- Add test fixture for BibTeX.
+
 ## 2023.1.5
 
 ### New features
