@@ -2,4 +2,4 @@
 * text=auto
 
 # Let GitHub Linguist ignore directories
-tests/* linguist-vendored=false
+tests/** linguist-generated=true
