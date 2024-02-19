@@ -61,6 +61,7 @@ You can also install it from the [Visual Studio Marketplace](https://marketplace
 - Sweave
 - Swift
 - TypeScript
+- Typst
 - YAML
 
 ## Contributing
