@@ -920,6 +920,16 @@
 			"settings": {
 				"foreground": "#687687"
 			}
+		},
+		{
+			"name": "Typst: expression",
+			"scope": [
+				"punctuation.definition.variable.typst",
+				"entity.other.interpolated.typst"
+			],
+			"settings": {
+				"foreground": "#3c4c72"
+			}
 		}
 	],
 	"semanticHighlighting": true,
