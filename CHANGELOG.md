@@ -1,5 +1,11 @@
 # Changelog
 
+## 2024.2.0
+
+### Improvements
+
+- Add syntax highlighting support and test fixture for Typst.
+
 ## 2023.4.0
 
 ### Improvements
