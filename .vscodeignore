@@ -6,3 +6,6 @@ assets/
 !assets/logo.png
 tests/
 src/
+
+CLAUDE.md
+**/tsconfig.json
