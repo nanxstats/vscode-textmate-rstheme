@@ -1,5 +1,13 @@
 # Changelog
 
+## 2025.8.0
+
+### Improvements
+
+- Replace manual JSON theme maintenance with a TypeScript build pipeline that
+  generates the theme from YAML source files. This makes future theme updates
+  much easier (#3).
+
 ## 2024.2.0
 
 ### Improvements
