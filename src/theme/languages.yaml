@@ -1,0 +1,171 @@
+# Language-specific token colors
+
+languages:
+  # HTML
+  - name: 'HTML: Doctype Declaration'
+    scope:
+      - meta.tag.sgml.doctype
+      - meta.tag.sgml.doctype string
+      - meta.tag.sgml.doctype entity.name.tag
+      - meta.tag.sgml punctuation.definition.tag.html
+    settings:
+      foreground: '#68685b'
+
+  - name: 'HTML: Tags'
+    scope:
+      - meta.tag
+      - punctuation.definition.tag.html
+      - punctuation.definition.tag.begin.html
+      - punctuation.definition.tag.end.html
+    settings:
+      foreground: '#00168e'
+
+  - name: 'HTML: Tag Names'
+    scope: entity.name.tag
+    settings:
+      foreground: '#00168e'
+
+  - name: 'HTML: Attribute Names'
+    scope:
+      - meta.tag entity.other.attribute-name
+      - entity.other.attribute-name.html
+    settings:
+      foreground: '#000'
+
+  - name: 'HTML: separator'
+    scope: punctuation.separator.key-value.html
+    settings:
+      foreground: '#687687'
+
+  - name: 'HTML: Entities'
+    scope:
+      - constant.character.entity
+      - punctuation.definition.entity
+    settings:
+      foreground: '#585cf6'
+
+  # LaTeX and Sweave
+  - name: 'LaTeX and Sweave: keywords'
+    scope:
+      - support.function.general.tex
+      - support.function.section.latex
+      - support.function.be.latex
+      - support.function.verb.latex
+      - support.function.textbf.latex
+      - support.function.textit.latex
+      - support.function.texttt.latex
+      - support.function.url.latex
+    settings:
+      foreground: '#0000ff'
+
+  # Makefile
+  - name: 'Makefile: target.PHONY'
+    scope:
+      - support.function.target.PHONY.makefile
+    settings:
+      foreground: '#585cf6'
+
+  - name: 'Makefile: target names'
+    scope:
+      - meta.scope.target.makefile
+      - entity.name.function.target.makefile
+    settings:
+      foreground: '#0000ff'
+
+  - name: 'Makefile: variables'
+    scope:
+      - variable.other.makefile
+    settings:
+      foreground: '#318495'
+
+  # Python
+  - name: 'Python: separator'
+    scope: punctuation.separator.period.python
+    settings:
+      foreground: '#687687'
+
+  - name: 'Python: escape sequence'
+    scope: constant.character.escape.python
+    settings:
+      foreground: '#585cf6'
+
+  # CSS
+  - name: 'CSS: Selectors'
+    scope:
+      - meta.selector
+      - meta.selector entity
+      - meta.selector entity punctuation
+      - entity.name.tag.css
+    settings:
+      foreground: '#318495'
+
+  - name: 'CSS: Property Names'
+    scope:
+      - meta.property-name
+      - support.type.property-name
+    settings:
+      foreground: '#6d79de'
+
+  - name: 'CSS: Property Values'
+    scope:
+      - meta.property-value
+      - meta.property-value constant.other
+      - support.constant.property-value
+    settings:
+      foreground: '#448C27'
+
+  - name: 'CSS: Important Keyword'
+    scope: keyword.other.important
+    settings:
+      fontStyle: bold
+
+  # JavaScript
+  - name: 'JavaScript: regex'
+    scope: keyword.control.anchor.regexp
+    settings:
+      foreground: '#687687'
+
+  - name: 'JavaScript: storage modifier'
+    scope: storage.modifier.js
+    settings:
+      foreground: '#0000ff'
+
+  # C
+  - name: 'C: include'
+    scope: punctuation.definition.directive.c
+    settings:
+      foreground: '#0000ff'
+
+  - name: 'C: numbers'
+    scope:
+      - keyword.other.unit.hexadecimal.c
+      - keyword.other.unit.suffix.floating-point.c
+    settings:
+      foreground: '#0000cd'
+
+  # C++
+  - name: 'Cpp: include, using'
+    scope:
+      - punctuation.definition.directive.cpp
+      - keyword.other.using.directive.cpp
+    settings:
+      foreground: '#0000ff'
+
+  - name: 'Cpp: numbers'
+    scope: keyword.other.unit.hexadecimal.cpp
+    settings:
+      foreground: '#0000cd'
+
+  # R
+  - name: 'R: `$` and separator keywords'
+    scope: keyword.other.r
+    settings:
+      foreground: '#687687'
+
+  # Typst
+  - name: 'Typst: expression'
+    scope:
+      - punctuation.definition.variable.typst
+      - entity.other.interpolated.typst
+    settings:
+      foreground: '#3c4c72'

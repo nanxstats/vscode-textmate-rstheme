@@ -1,0 +1,225 @@
+# Markup and Markdown specific colors
+
+markup:
+  # General Markup
+  - name: 'Markup: Changed'
+    scope: markup.changed
+    settings:
+      foreground: '#000000'
+
+  - name: 'Markup: Deletion'
+    scope: markup.deleted
+    settings:
+      foreground: '#000000'
+
+  - name: 'Markup: Emphasis'
+    scope: markup.italic
+    settings:
+      fontStyle: italic
+
+  - name: 'Markup: Error'
+    scope: markup.error
+    settings:
+      foreground: '#660000'
+
+  - name: 'Markup: Insertion'
+    scope: markup.inserted
+    settings:
+      foreground: '#000000'
+
+  - name: 'Markup: Link'
+    scope: meta.link
+    settings:
+      foreground: '#4B83CD'
+
+  - name: 'Markup: Output'
+    scope:
+      - markup.output
+      - markup.raw
+    settings:
+      foreground: '#3c4c72'
+
+  - name: 'Markup: Prompt'
+    scope: markup.prompt
+    settings:
+      foreground: '#777777'
+
+  - name: 'Markup: Heading'
+    scope: markup.heading
+    settings:
+      foreground: '#0c07ff'
+
+  - name: 'Markup: Strong'
+    scope: markup.bold
+    settings:
+      fontStyle: bold
+
+  - name: 'Markup: Traceback'
+    scope: markup.traceback
+    settings:
+      foreground: '#660000'
+
+  - name: 'Markup: Underline'
+    scope: markup.underline
+    settings:
+      fontStyle: underline
+
+  - name: Markup Quote
+    scope: markup.quote
+    settings:
+      foreground: '#036a07'
+
+  - name: Markup Lists
+    scope: markup.list
+    settings:
+      foreground: '#000'
+
+  - name: Markup Styling
+    scope:
+      - markup.bold
+      - markup.italic
+    settings:
+      foreground: '#0000cd'
+
+  - name: Markup Inline
+    scope: markup.inline.raw
+    settings:
+      foreground: '#3c4c72'
+
+  # Diff
+  - name: 'Extra: Diff Range'
+    scope:
+      - meta.diff.range
+      - meta.diff.index
+      - meta.separator
+    settings:
+      foreground: '#434343'
+
+  - name: 'Extra: Diff From'
+    scope: meta.diff.header.from-file
+    settings:
+      foreground: '#434343'
+
+  - name: 'Extra: Diff To'
+    scope: meta.diff.header.to-file
+    settings:
+      foreground: '#434343'
+
+# Markdown, R Markdown, Quarto specific
+markdown:
+  - name: YAML header entity name
+    scope: entity.name.tag.yaml
+    settings:
+      foreground: '#0000A2'
+
+  - name: YAML header entity value
+    scope: string.unquoted.plain.out.yaml
+    settings:
+      foreground: '#000'
+
+  - name: Code chunk fences
+    scope:
+      - meta.embedded.block
+      - markup.fenced_code.block.markdown
+    settings:
+      foreground: '#3c4c72'
+
+  - name: Block quote
+    scope:
+      - markup.quote.markdown
+      - punctuation.definition.quote.begin.markdown
+      - punctuation.definition.quote.begin.quarto
+    settings:
+      foreground: '#036a07'
+
+  - name: Headings
+    scope:
+      - markup.heading.markdown
+      - punctuation.definition.heading.markdown
+      - punctuation.definition.heading.quarto
+    settings:
+      foreground: '#0c07ff'
+
+  - name: Bracket links URL
+    scope:
+      - markup.underline.link.markdown
+      - markup.underline.link.quarto
+    settings:
+      foreground: '#0c07ff'
+
+  - name: Bracket links brackets
+    scope:
+      - punctuation.definition.link.markdown
+      - punctuation.definition.link.quarto
+    settings:
+      foreground: '#000'
+
+  - name: Link title
+    scope:
+      - string.other.link.title.markdown
+      - string.other.link.title.quarto
+    settings:
+      foreground: '#0c07ff'
+
+  - name: Link URL
+    scope:
+      - markup.underline.link.markdown
+      - markup.underline.link.quarto
+    settings:
+      foreground: '#000'
+
+  - name: Bold
+    scope:
+      - markup.bold.markdown
+      - punctuation.definition.bold.markdown
+      - punctuation.definition.bold.quarto
+    settings:
+      foreground: '#0000cd'
+
+  - name: Italic
+    scope:
+      - markup.italic.markdown
+      - punctuation.definition.italic.markdown
+      - markup.italic.quarto
+      - punctuation.definition.italic.quarto
+    settings:
+      foreground: '#585cf6'
+
+  - name: Lists
+    scope:
+      - markup.list
+      - punctuation.definition.list.begin.markdown
+      - punctuation.definition.list.begin.quarto
+    settings:
+      foreground: '#000'
+
+  - name: Inline code
+    scope:
+      - markup.inline.raw.string.markdown
+      - markup.inline.raw.string.quarto
+    settings:
+      foreground: '#3c4c72'
+
+  - name: Raw code block
+    scope:
+      - markup.raw.block.markdown
+      - markup.raw.block.quarto
+    settings:
+      foreground: '#3c4c72'
+
+  - name: Image description
+    scope:
+      - string.other.link.description.markdown
+      - string.other.link.description.quarto
+    settings:
+      foreground: '#0c07ff'
+
+  - name: Link brackets and parenthesis
+    scope:
+      - punctuation.definition.link.title.begin.markdown
+      - punctuation.definition.link.title.end.markdown
+      - punctuation.definition.link.description.begin.markdown
+      - punctuation.definition.link.description.end.markdown
+      - punctuation.definition.metadata.markdown
+    settings:
+      foreground: '#687687'

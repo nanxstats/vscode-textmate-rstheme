@@ -1,0 +1,122 @@
+# Syntax Token Colors
+
+tokenColors:
+  # General tokens
+  - name: Comments
+    scope:
+      - comment
+      - punctuation.definition.comment
+    settings:
+      foreground: '#4c886b'
+
+  - name: 'Comments: Preprocessor'
+    scope: comment.block.preprocessor
+    settings:
+      fontStyle: ''
+      foreground: '#4c886b'
+
+  - name: 'Comments: Documentation'
+    scope:
+      - comment.documentation
+      - comment.block.documentation
+    settings:
+      foreground: '#4c886b'
+
+  - name: Invalid - Illegal
+    scope: invalid.illegal
+    settings:
+      foreground: '#ff0000'
+
+  - name: Operators
+    scope: keyword.operator
+    settings:
+      foreground: '#687687'
+
+  - name: Keywords
+    scope:
+      - keyword
+      - storage
+    settings:
+      foreground: '#0000ff'
+
+  - name: Types
+    scope:
+      - storage.type
+      - support.type
+    settings:
+      foreground: '#0000ff'
+
+  - name: Language Constants
+    scope:
+      - constant.language
+      - support.constant
+      - variable.language
+    settings:
+      foreground: '#585cf6'
+
+  - name: Variables
+    scope:
+      - variable
+      - support.variable
+    settings:
+      foreground: '#000'
+
+  - name: Functions
+    scope:
+      - entity.name.function
+      - support.function
+    settings:
+      foreground: '#000'
+
+  - name: Classes
+    scope:
+      - entity.name.type
+      - entity.other.inherited-class
+      - support.class
+    settings:
+      foreground: '#6d79de'
+
+  - name: Exceptions
+    scope: entity.name.exception
+    settings:
+      foreground: '#660000'
+
+  - name: Numbers, Characters
+    scope:
+      - constant.numeric
+      - constant.character
+      - constant
+    settings:
+      foreground: '#0000cd'
+
+  - name: Strings
+    scope: string
+    settings:
+      foreground: '#036a07'
+
+  - name: 'Strings: Escape Sequences'
+    scope: constant.character.escape
+    settings:
+      foreground: '#036a07'
+
+  - name: 'Strings: Regular Expressions'
+    scope: string.regexp
+    settings:
+      foreground: '#036a07'
+
+  - name: 'Strings: quotes'
+    scope:
+      - punctuation.definition.string.begin
+      - punctuation.definition.string.end
+    settings:
+      foreground: '#036a07'
+
+  - name: 'Strings: Symbols'
+    scope: constant.other.symbol
+    settings:
+      foreground: '#585cf6'
+
+  - name: Punctuation
+    scope: punctuation
+    settings:
+      foreground: '#687687'

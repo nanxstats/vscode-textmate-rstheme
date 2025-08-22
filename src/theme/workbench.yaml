@@ -1,0 +1,113 @@
+# Workbench UI Colors
+
+# Title bar
+titleBar:
+  activeForeground: '#57606a'
+  activeBackground: '#ffffff'
+  inactiveForeground: '#57606a'
+  inactiveBackground: '#f6f8fa'
+  border: '#d0d7de'
+
+# Activity bar
+activityBar:
+  foreground: '#24292f'
+  inactiveForeground: '#57606a'
+  background: '#ffffff'
+  activeBorder: '#80A9D7'
+  border: '#d0d7de'
+
+activityBarBadge:
+  foreground: '#ffffff'
+  background: '#5b90bf'
+
+# Sidebar
+sideBar:
+  foreground: '#24292f'
+  background: '#f6f8fa'
+  border: '#d0d7de'
+
+sideBarTitle:
+  foreground: '#24292f'
+
+sideBarSectionHeader:
+  foreground: '#24292f'
+  background: '#f6f8fa'
+  border: '#d0d7de'
+
+# Status bar
+statusBar:
+  foreground: '#57606a'
+  background: '#ffffff'
+  border: '#d0d7de'
+  focusBorder: '#5b90bf80'
+  noFolderBackground: '#ffffff'
+  debuggingForeground: '#ffffff'
+  debuggingBackground: '#cf222e'
+
+statusBarItem:
+  prominentBackground: '#afb8c133'
+  remoteForeground: '#24292f'
+  remoteBackground: '#eaeef2'
+  hoverBackground: '#24292f14'
+  activeBackground: '#24292f1f'
+  focusBorder: '#5b90bf'
+
+# Editor groups and tabs
+editorGroup:
+  border: '#d0d7de'
+
+editorGroupHeader:
+  tabsBackground: '#f6f8fa'
+  tabsBorder: '#d0d7de'
+
+tab:
+  activeForeground: '#24292f'
+  inactiveForeground: '#57606a'
+  inactiveBackground: '#f6f8fa'
+  activeBackground: '#ffffff'
+  hoverBackground: '#ffffff'
+  unfocusedHoverBackground: '#eaeef280'
+  border: '#d0d7de'
+  unfocusedActiveBorderTop: '#d0d7de'
+  activeBorder: '#ffffff'
+  unfocusedActiveBorder: '#ffffff'
+  activeBorderTop: '#80A9D7'
+
+# Breadcrumbs
+breadcrumb:
+  foreground: '#57606a'
+  focusForeground: '#24292f'
+  activeSelectionForeground: '#57606a'
+
+breadcrumbPicker:
+  background: '#ffffff'
+
+# Editor widgets
+editorWidget:
+  background: '#ffffff'
+
+# Panel
+panel:
+  background: '#f6f8fa'
+  border: '#d0d7de'
+
+panelTitle:
+  activeBorder: '#80A9D7'
+  activeForeground: '#24292f'
+  inactiveForeground: '#57606a'
+
+panelInput:
+  border: '#d0d7de'
+
+# Scrollbar
+scrollbar:
+  shadow: '#6e778133'
+
+scrollbarSlider:
+  background: '#8c959f33'
+  hoverBackground: '#8c959f45'
+  activeBackground: '#8c959f87'
+
+# Overview ruler
+editorOverviewRuler:
+  border: '#ffffff'

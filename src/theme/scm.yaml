@@ -1,0 +1,21 @@
+# Source Control Management (Git, Diff) Colors
+
+# Git gutter
+"editorGutter.modifiedBackground": '#d4a72c66'
+"editorGutter.addedBackground": '#4ac26b66'
+"editorGutter.deletedBackground": '#ff818266'
+
+# Git decorations
+"gitDecoration.addedResourceForeground": '#1a7f37'
+"gitDecoration.modifiedResourceForeground": '#9a6700'
+"gitDecoration.deletedResourceForeground": '#cf222e'
+"gitDecoration.untrackedResourceForeground": '#1a7f37'
+"gitDecoration.ignoredResourceForeground": '#6e7781'
+"gitDecoration.conflictingResourceForeground": '#bc4c00'
+"gitDecoration.submoduleResourceForeground": '#57606a'
+
+# Diff editor
+"diffEditor.insertedLineBackground": '#aceebb4d'
+"diffEditor.insertedTextBackground": '#6fdd8b66'
+"diffEditor.removedLineBackground": '#ffcecb4d'
+"diffEditor.removedTextBackground": '#ffaba866'
