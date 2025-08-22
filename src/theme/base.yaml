@@ -1,0 +1,58 @@
+# Base theme metadata
+name: textmate.rstheme
+
+# Core editor colors
+editor:
+  background: '#fff'
+  foreground: '#000'
+  lineHighlightBackground: '#eaeef280'
+  linkedEditingBackground: '#5b90bf12'
+  foldBackground: '#6e77811a'
+  stackFrameHighlightBackground: '#d4a72c66'
+  focusedStackFrameHighlightBackground: '#4ac26b66'
+  selectionBackground: '#b5d5ff'
+  selectionHighlightBackground: '#fafaff'
+  selectionHighlightBorder: '#c8c8fa'
+  findMatchBackground: '#bf8700'
+  findMatchHighlightBackground: '#fae17d80'
+  wordHighlightBackground: '#eaeef280'
+  wordHighlightBorder: '#afb8c199'
+  wordHighlightStrongBackground: '#afb8c14d'
+  wordHighlightStrongBorder: '#afb8c199'
+
+editorCursor:
+  foreground: '#000'
+
+editorBracketMatch:
+  background: '#c0c0c080'
+  border: '#c0c0c080'
+
+# Bracket pair colorization
+"editorBracketHighlight.foreground1": '#687687'
+"editorBracketHighlight.foreground2": '#687687'
+"editorBracketHighlight.foreground3": '#687687'
+"editorBracketHighlight.foreground4": '#687687'
+"editorBracketHighlight.foreground5": '#687687'
+"editorBracketHighlight.foreground6": '#687687'
+"editorBracketHighlight.unexpectedBracket.foreground": '#57606a'
+
+# Line numbers
+editorLineNumber:
+  foreground: '#8c959f'
+  activeForeground: '#24292f'
+
+# Indentation guides
+editorIndentGuide:
+  background: '#24292f1f'
+  activeBackground: '#24292f3d'
+
+# Whitespace
+editorWhitespace:
+  foreground: '#afb8c1'
+
+# Inlay hints
+editorInlayHint:
+  background: '#afb8c133'
+  foreground: '#57606a'
+  typeBackground: '#afb8c133'
+  typeForeground: '#57606a'

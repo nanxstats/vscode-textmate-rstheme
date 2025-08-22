@@ -1,0 +1,10 @@
+# Semantic Highlighting Configuration
+
+semanticHighlighting: true
+
+semanticTokenColors:
+  # SAS specific semantic tokens
+  'sec-keyword:sas': '#0000A2'
+  'proc-name:sas': '#0000A2'
+  'cards-data:sas': '#4c886b'
+  'format:sas': '#585cf6'
