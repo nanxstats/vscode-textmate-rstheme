@@ -45,5 +45,18 @@
         "path": "./themes/textmate-rstheme-color-theme.json"
       }
     ]
+  },
+  "type": "commonjs",
+  "scripts": {
+    "build": "npx ts-node src/build.ts",
+    "build:watch": "npx ts-node --watch src/build.ts",
+    "prebuild": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2",
+    "yaml": "^2.8.1"
   }
 }
