@@ -1,5 +1,12 @@
 # Changelog
 
+## 2025.9.0
+
+### Maintenance
+
+- Update development dependencies (`@types/node`) to the latest version (#7).
+- Replace `CLAUDE.md` with `AGENTS.md` (#6).
+
 ## 2025.8.0
 
 ### Improvements
