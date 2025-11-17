@@ -1,5 +1,12 @@
 # Changelog
 
+## 2025.11.0
+
+### Maintenance
+
+- Update development dependencies (`@types/node` and `typescript`) to the
+  latest versions (#10).
+
 ## 2025.9.0
 
 ### Maintenance
