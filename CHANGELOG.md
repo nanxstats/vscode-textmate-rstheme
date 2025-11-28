@@ -1,5 +1,12 @@
 # Changelog
 
+## 2025.11.1
+
+### Improvements
+
+- Update terminal ANSI yellow colors to improve contrast and readability
+  by replacing brown tones with olive yellow hues (thanks, @ZhimingYe, #13).
+
 ## 2025.11.0
 
 ### Maintenance
