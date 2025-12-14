@@ -1,5 +1,12 @@
 # Changelog
 
+## 2025.12.0
+
+### Maintenance
+
+- Update development dependencies (`@types/node` and `yaml`) to the
+  latest versions (#17).
+
 ## 2025.11.1
 
 ### Improvements
