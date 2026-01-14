@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026.1.0
+
+### Improvements
+
+- Restore extensions view action button colors after the CSS cascade fix
+  ([microsoft/vscode#276781](https://github.com/microsoft/vscode/issues/276781))
+  in VS Code 1.108 (#21).
+
 ## 2025.12.0
 
 ### Maintenance
