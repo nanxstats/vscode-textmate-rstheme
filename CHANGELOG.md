@@ -8,6 +8,10 @@
   ([microsoft/vscode#276781](https://github.com/microsoft/vscode/issues/276781))
   in VS Code 1.108 (#21).
 
+### Maintenance
+
+- Update development dependencies (`@types/node`) to the latest version (#20).
+
 ## 2025.12.0
 
 ### Maintenance
