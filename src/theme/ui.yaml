@@ -31,10 +31,17 @@ button:
   background: '#5b90bf'
   foreground: '#ffffff'
   hoverBackground: '#4177a6'
+  secondaryBackground: '#ebecf0'
+  secondaryForeground: '#24292f'
+  secondaryHoverBackground: '#f3f4f6'
 
-"button.secondaryBackground": '#ebecf0'
-"button.secondaryForeground": '#24292f'
-"button.secondaryHoverBackground": '#f3f4f6'
+extensionButton:
+  background: '#5b90bf'
+  foreground: '#ffffff'
+  hoverBackground: '#4177a6'
+  prominentBackground: '#5b90bf'
+  prominentForeground: '#ffffff'
+  prominentHoverBackground: '#4177a6'
 
 # Form controls
 input:
