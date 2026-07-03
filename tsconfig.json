@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2024",
-    "module": "commonjs",
+    "module": "NodeNext",
     "lib": [
       "ES2024"
     ],
@@ -12,7 +12,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "types": [
       "node"
     ]
